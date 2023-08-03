@@ -10,8 +10,7 @@ class HomeScreen extends StatelessWidget {
         title: Text('Djplayer'),
       ),
       body: SafeArea(
-        child: Center(child: Text("Let's do it")),
-      ),
+          child: ElevatedButton(onPressed: () {}, child: Text('Hello'))),
     );
   }
 }
