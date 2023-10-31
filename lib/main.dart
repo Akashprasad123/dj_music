@@ -2,7 +2,7 @@ import 'package:djplayer/screens/screen_home.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
-  runApp(Djplayer());
+  runApp(const Djplayer());
 }
 
 class Djplayer extends StatelessWidget {
@@ -14,7 +14,7 @@ class Djplayer extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
